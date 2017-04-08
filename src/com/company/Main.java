@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -14,12 +16,17 @@ public class Main {
 //        System.out.println(porsche.getColor());
 
 
-        Account ianAccount = new Account("14112", 2000, "ian",
-                "adfa@assdas.com", "123141");
+//        Account ianAccount = new Account("14112", 2000, "ian",
+//                "adfa@assdas.com", "123141");
+//
+//        ianAccount.deposit(3000);
+//        ianAccount.withdraw(3000);
 
-        ianAccount.deposit(3000);
-        ianAccount.withdraw(3000);
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("enter your name");
+        int value = scanner.nextInt();
+        System.out.println(value);
     }
-    
+
 
 }
